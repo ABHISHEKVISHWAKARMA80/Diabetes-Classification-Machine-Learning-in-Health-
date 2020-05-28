@@ -8,7 +8,7 @@ b) In k-NN regression, the output is the property value for the object. This val
 
 # prerequisite
 1. install jupyter notebook (or you can use any other python platform also)
-2. install numpy, pandas & matplotlib.
+2. install numpy, pandas & matplotlib on it.
 
 # Description of repository:
 1. Diabetes_XTrain.csv, Diabetes_YTrain.csv & Diabetes_Xtest.csv are given data set.
