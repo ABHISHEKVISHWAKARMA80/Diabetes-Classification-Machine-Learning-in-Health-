@@ -29,21 +29,23 @@ b) In k-NN regression, the output is the property value for the object. This val
 3. output.csv is the final result.
 
 # Pros of KNN
--Simple to implement
 
--Flexible to feature/distance choices
+- Simple to implement
 
--Naturally handles multi-class cases
+- Flexible to feature/distance choices
 
--Can do well in practice with enough representative data
+- Naturally handles multi-class cases
+
+- Can do well in practice with enough representative data
 
 # Cons of KNN
--Need to determine the value of parameter K (number of nearest neighbors)
 
--Computation cost is quite high because we need to compute the distance of each query instance to all training samples.
+- Need to determine the value of parameter K (number of nearest neighbors)
 
--Storage of data
+- Computation cost is quite high because we need to compute the distance of each query instance to all training samples.
 
--Must know we have a meaningful distance function.
+- Storage of data
+
+- Must know we have a meaningful distance function.
 
 K-NN is also a lazy learner because it doesn’t learn a discriminative function from the training data but “memorizes” the training dataset instead.
