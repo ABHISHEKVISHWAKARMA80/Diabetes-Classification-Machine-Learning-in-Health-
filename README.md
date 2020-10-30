@@ -19,6 +19,8 @@ b) In k-NN regression, the output is the property value for the object. This val
 
 - use euclidean distance. (For categorical variables, the hamming distance must be used.) 
 
+- can be used to solve both classification and regression problems.
+
 # prerequisite
 1. install jupyter notebook (or you can use any other python platform also)
 2. install numpy, pandas & matplotlib on it.
@@ -35,6 +37,8 @@ b) In k-NN regression, the output is the property value for the object. This val
 - Flexible to feature/distance choices
 
 - Naturally handles multi-class cases
+
+- The algorithm is versatile. It can be used for classification, regression, and search.
 
 - Can do well in practice with enough representative data
 
